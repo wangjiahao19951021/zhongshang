@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<link rel="stylesheet" href="./css/common.css">
+		<link rel="stylesheet" href="./lib/Swiper-3.4.2/dist/css/swiper.min.css">
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./lib/animate.css/animate.css">
+		<link rel="stylesheet" href="./css/information.css">
+
+		<script src="./lib/jquery-1.11.3/jquery.min.js"></script>
+		<script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="./lib/Swiper-3.4.2/dist/js/swiper.min.js"></script>
+		<script src="./lib/wow/wow.min.js"></script>
+		<script src="./js/index.js"></script>
+		<script src="./js/information.js"></script>
+		<script src="./lib/test-languagejs/js/language.js"></script> 
+		<!-- 分页插件 -->
+		<link rel="stylesheet" href="./lib/pagination/pagination.css">
+		<script src="./lib/pagination/jquery.pagination.js"></script>
+		<title>资讯中心</title>
+	</head>
+
+	<body>
+		<!-- 资讯中心头部 -->
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="index-header">
+				<h1 class="index-banner"></h1>
+				<nav class="index-nav">
+					<ul>
+						<li>首页</li>
+						<li>关于中商</li>
+						<li class="active">资讯中心</li>
+						<li>主营业务</li>
+						<li>专家团队</li>
+						<li>中商联盟</li>
+						<!-- <li><span>中文</span><span>英文</span></li> -->
+						<!-- <p class="change_langa"><span class="active" data="1"><small>中文</small></span><span data="2"><small>英文</small></span></p> -->
+						<p class="change_langa"><span class="active" data="1"><small>中文</small></span><span data="2"><small>英文</small></span></p>
+					</ul>
+				</nav>
+			</div>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image:url(./images/jishufuwu4.0@2x.png)"></div>
+			</div>
+			<div class="swiper-pagination swiper-pagination-white"></div>
+			<div class="index-text">
+				<h3>做互联网思维碳素企业的</h3>
+				<h1>风向标</h1>
+				<p><span>成为标准的制定者</span><span>行业的推进者,积极探索各产业更快更好高质量发展</span></p>
+			</div>
+			<!-- 资讯中心tab新闻 -->
+			<div class="wrap-tabNews">
+				<div class="container">
+					<!-- 导航 -->
+					<ul class="main-tabNews">
+
+						
+						<li>企业动态</li>
+						<li>行业要闻</li>
+						<li>信息咨询</li>
+						<li>市场资讯</li>
+						<li>技术服务</li>
+						<li>工程项目</li>
+
+						<!-- <li class="li-tabNews">
+							<p class="main-borderP">企业动态</p >
+							<p class="main-tabP"><i class="glyphicon glyphicon-triangle-top"></i></p >
+						</li>
+
+						<li class="li-tabNews">
+							<p class="main-borderP">行业要闻</p >
+							<span class="main-tabSpan"><i class="glyphicon glyphicon-triangle-top"></i></span>
+						</li>
+						<li class="li-tabNews">
+							<p class="main-borderP">信息资讯</p >
+							<span class="main-tabSpan"><i class="glyphicon glyphicon-triangle-top"></i></span>
+						</li>
+						<li class="li-tabNews">
+							<p class="main-borderP">市场资讯</p >
+							<span class="main-tabSpan"><i class="glyphicon glyphicon-triangle-top"></i></span>
+						</li>
+						<li class="li-tabNews">
+							<p class="main-borderP">技术服务</p >
+							<span class="main-tabSpan"><i class="glyphicon glyphicon-triangle-top"></i></span>
+						</li>
+						<li class="li-tabNews">
+							<p>工程项目</p >
+							<span class="main-tabSpan"><i class="glyphicon glyphicon-triangle-top"></i></span>
+						</li> -->
+					</ul>
+					<!-- 三角 -->
+					<ul class="wrap-active">
+						<li class="active-tab">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+						<li class="active-tab vis_hide">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+						<li class="active-tab vis_hide">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+						<li class="active-tab vis_hide">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+						<li class="active-tab vis_hide">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+						<li class="active-tab vis_hide">
+							<i class="glyphicon glyphicon-triangle-top"></i>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="clear"></div>
+		<!--企业动态-->
+		<div class="wrap-movement infor_box">
+			<div class="container infor_box_new1">
+				<!-- <div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<span class="isTop">置顶</span>
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- 分页 -->
+				<!-- page盒子 -->
+				
+
+			</div>
+			<div class="aa">
+				<div class="M-box11 m-style"></div>
+			</div>
+		</div>
+
+		<!-- 行业要闻 -->
+		<div class="wrap-movement hide infor_box">
+			<div class="container infor_box_new1">
+
+				<!-- <div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+								<span class="isTop">置顶</span>
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" class="img-responsive" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" class="img-responsive" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" class="img-responsive" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-movement">
+					<div class="row">
+						<div class="col-md-4 img-movement">
+							<img src="images/xinwenxiangqing1.0@2x.png" alt="" class="img-responsive" width="100%" height="100%">
+						</div>
+						<div class="col-md-8 cont-movement">
+							<h3 class="h3-title">GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h3>
+							<p class="p-cont">
+								2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE
+								LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。
+							</p>
+							<span class="fl">2019年1月16日</span>
+							<span class="fr">文章来源：中商</span>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- page盒子 -->
+				
+
+			</div>
+			<div class="aa">
+				<div class="M-box11 m-style"></div>
+			</div>
+		</div>
+
+		<!-- 信息资讯 -->
+		<div class="wrap-message hide infor_box">
+			<div class="container">
+				<div class="row title-message ">
+					<div class="col-md-12 col-xs-12">
+						<h1 class="wow bounceInDown" style="animate-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-duration: 1s;">中商资讯简介</h1>
+						<p class="wow bounceInDown" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">中商资讯专注"铝、碳素、新能源、新材料"四大领域,旨在通过为客户提供专业的信息资讯服务,为客户解决问题和创造价值,成为客户的长期顾问,推动行业转型升级</p>
+					</div>
+				</div>
+			</div>
+			<div class="main-message">
+				<div class="">
+					<!-- 左侧图片 -->
+					<div class="Limg-message wow bounceInLeft" style="animate-delay: 0.5s; -webkit-animation-delay: 0.5s; animation-duration: 1.2s;">
+						<img src="images/xinxizixun@2x.png" alt="" width="100%" height="100%">
+						<!-- 左侧图片文字 -->
+						<div class="h3-message">
+							<h3>中商资讯核心</h3>
+							<h3>产品及服务</h3>
+						</div>
+					</div>
+
+					<!-- 右侧条形模块  -->
+					<div class="Rimg-message">
+						<div class="one-message one-color wow bounceInRight" style="animate-delay: 0.6s; -webkit-animation-delay: 0.6s; animation-duration: 1.2s;">
+							<div class="Rmain-message wow">
+								<h4>数据服务</h4>
+								<p>基于几十年在行业内的研究和累计;为客户提供基于情报+数据+服务的多元化大数据解决方案,涵盖市场分析、行业走势、市场竞争检测及数据共享等业务</p>
+							</div>
+						</div>
+
+						<div class="two-message two-color wow bounceInRight" style="animate-delay: 0.7s; -webkit-animation-delay: 0.7s; animation-duration: 1.2s;">
+							<div class="Rmain-message">
+								<h4>数据服务</h4>
+								<p>基于几十年在行业内的研究和累计;为客户提供基于情报+数据+服务的多元化大数据解决方案,涵盖市场分析、行业走势、市场竞争检测及数据共享等业务</p>
+							</div>
+						</div>
+
+						<div class="three-message three-color wow bounceInRight" style="animate-delay: 0.8s; -webkit-animation-delay: 0.8s; animation-duration: 1.2s;">
+							<div class="Rmain-message">
+								<h4>数据服务</h4>
+								<p>基于几十年在行业内的研究和累计;为客户提供基于情报+数据+服务的多元化大数据解决方案,涵盖市场分析、行业走势、市场竞争检测及数据共享等业务</p>
+							</div>
+						</div>
+
+						<div class="four-message four-color wow bounceInRight" style="animate-delay: 0.9s; -webkit-animation-delay: 0.9s; animation-duration: 1.2s;">
+							<div class="Rmain-message">
+								<h4>数据服务</h4>
+								<p>基于几十年在行业内的研究和累计;为客户提供基于情报+数据+服务的多元化大数据解决方案,涵盖市场分析、行业走势、市场竞争检测及数据共享等业务</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<!-- 市场资讯 -->
+		<div class="wrap-market hide infor_box">
+			<div class="container">
+
+				<div class="row">
+					<!-- 左边 -->
+					<div class="Lmain-market col-md-4 col-xs-4">
+						<div class="Lone-market wow jackInTheBox" style="animate-delay: 0.5s; -webkit-animation-delay: 0.5s; animation-duration: 1s;">
+							<h4 class="tr">行业资讯</h4>
+							<p>借助线下32处服务网点+线上平台信息渠道,汇集最新最全的宏观微观信息,为全行业提供免费的资讯咨询服务</p>
+						</div>
+						<div class="Ltwo-market wow jackInTheBox" style="animate-delay: 0.5s; -webkit-animation-delay: 0.5s; animation-duration: 1s;">
+							<h4 class="tr">群英云集</h4>
+							<p>打造行业人才库,涉及管理、技术、经营、财务、法律各层面人才,群策群力推动行业发展</p>
+						</div>
+					</div>
+					<!-- 中间 -->
+					<div class="Mmain-market col-md-4 col-xs-4 wow jackInTheBox" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+						<div class="Mimg1-market"><img src="images/market-1.png" alt="" width="100%" height="100%"></div>
+						<div class="Mimg2-market"><img src="images/market-2.png" alt="" width="100%" height="100%"></div>
+						<div class="Mimg3-market"><img src="images/market-3.png" alt="" width="100%" height="100%"></div>
+						<div class="Mimg4-market"><img src="images/market-4.png" alt="" width="100%" height="100%"></div>
+					</div>
+					<!-- 右边 -->
+					<div class="Rmain-market col-md-4 col-xs-4">
+						<div class="Rone-market wow jackInTheBox" style="animate-delay: 0.5s; -webkit-animation-delay: 0.5s; animation-duration: 1s;">
+							<h4 class="tl">政策解读</h4>
+							<p>积极响应国家政策导向,为行业从环保、安全、经济、国际等多层面进行解读,为每个企业发展保驾护航</p>
+						</div>
+						<div class="Rtwo-market wow jackInTheBox" style="animate-delay: 0.5s; -webkit-animation-delay: 0.5s; animation-duration: 1s;">
+							<h4 class="tl">圈中商机</h4>
+							<p>小程序为行业提供一个免费使用的集中发布供需信息的小程序,更高效精准对接客户</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- 技术服务 -->
+		<div class="wrap-technical hide infor_box">
+			<div class="container">
+				<!-- 图文新闻模块 -->
+				<div class="row">
+					<!-- one -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo1.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>技术攻关</h4>
+								<p>针对行业在生产、管理等领域存在的问题、组织专家进行技术攻关,研发新技术、解决新问题</p>
+							</div>
+						</div>
+					</div>
+					<!-- two -->
+					<div class="col-md-4 col-sm-4 wow bounceInUp" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+						<div class="main-technical">
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>技术攻关</h4>
+								<p>承接碳素领域对的科技创新工作,负责碳素领域新技术、新工艺、新设备、新材料等的研发、不断探索学习各领域最新技术动态和发展趋势,在行业内始终保持解决问题和创新技术的能力</p>
+							</div>
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo3.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+					<!-- three -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo2.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>技术攻关</h4>
+								<p>在科研技术方面取得的科技成果,优先与拥有先进技术、设备、理念的厂家合作,共同推进科技成果的转化和产业化开发,真正让科技成果转化为生产力</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 图片模块 -->
+				<div class="banner-technical">
+					<img src="images/jishufuwu4.0@2x.png" alt="" width="100%" height="100%">
+				</div>
+				<!-- 图文新闻模块 -->
+				<div class="row">
+					<!-- one -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo1.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>技术培训</h4>
+								<p>根据电解铝行业发展动态和现实所需,提供全面的行业培训服务,推动行业发展、提升产品的品牌影响力、市场竞争力</p>
+							</div>
+						</div>
+					</div>
+					<!-- two -->
+					<div class="col-md-4 col-sm-4 wow bounceInUp" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>安全服务</h4>
+								<p>针对铝电解上下游行业的安全技术服务,尤其是高危企业(非煤矿山)的安全生产经营,包括安全名家,技术咨询、宣传教育、安全培训等领域</p>
+							</div>
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo3.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+					<!-- three -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo2.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>再生资源</h4>
+								<p>为客户提供资源互补和资源配置,最大限度盘活闲置资产,实现有效资源供需双方在中商碳素“铝行当”中</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 工程项目 -->
+		<div class="wrap-engineering hide infor_box">
+			<div class="container">
+				<!-- 产业园图 -->
+				<div class="main-engineering">
+					<!-- 背景图 -->
+					<div class="bgdimg-engineering">
+						<div class="cont-engineering">
+							<!-- 左侧文字 -->
+							<div class="text-engineering wow bounceInLeft" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+								<div>
+									<h3>腾格里新型产业园简介</h3>
+									<p>
+										2018年2月4日,江苏中商碳素研究院有限公司与内蒙古阿拉善腾格里经济技术开发区管理委员会成功签约《中商碳素新型碳材料科技产业园》项目。基地将充分发挥政策优势和区位优势,采取"园区服务+招商引资"的经营模式,紧紧围绕氟化石墨、球型石墨、高纯石墨、膨胀石墨、锂离子电视负极材料、石墨电极、铝用预焙阳极、石墨烯等、共同建设孵化园、旅游、科研等项目,有针对性地开展产业链招商
+									</p>
+								</div>
+							</div>
+							<!-- 右侧图片 -->
+							<div class="img-engineering wow bounceInRight" style="animate-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-duration: 1s;">
+								<img src="images/ditu@2x.png" alt="" width="100%" height="100%">
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<!-- 新闻图文 -->
+				<div class="row">
+					<!-- one -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo1.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>技术培训</h4>
+								<p>根据电解铝行业发展动态和现实所需,提供全面的行业培训服务,推动行业发展、提升产品的品牌影响力、市场竞争力</p>
+							</div>
+						</div>
+					</div>
+					<!-- tow -->
+					<div class="col-md-4 col-sm-4 wow bounceInUp" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>安全服务</h4>
+								<p>针对铝电解上下游行业的安全技术服务,尤其是高危企业(非煤矿山)的安全生产经营,包括安全名家,技术咨询、宣传教育、安全培训等领域</p>
+							</div>
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo3.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+					<!-- three -->
+					<div class="col-md-4 col-sm-4 wow bounceInDown" style="animate-delay: 1.2s; -webkit-animation-delay: 1.2s; animation-duration: 1.5s;">
+						<div class="main-technical">
+							<!-- 图 -->
+							<div class="img-technical">
+								<img src="images/xiangmuhezuo2.0@2x.png" alt="" width="100%" height="100%">
+							</div>
+							<!-- 文 -->
+							<div class="text-technical">
+								<h4>再生资源</h4>
+								<p>为客户提供资源互补和资源配置,最大限度盘活闲置资产,实现有效资源供需双方在中商碳素“铝行当”中</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 新闻详情 -->
+		<div class="wrap-news">
+			<div class="container">
+				<div class="main-news">
+					<!-- 标题 -->
+					<div class="title-news">
+						<!-- <h2>GRAPHEX & 比亚迪公司领导莅临中商碳素研究院洽谈合作</h2> -->
+						<!-- <P>中商碳素研究院</P> -->
+						<h2></h2>
+						<p></p>
+					</div>
+					<!-- 内容 -->
+					<div class="cont-news">
+						<!-- <img src="images/xinwenxiangqing1.0@2x.png" alt="" width="100%" height="100%">
+						<p>2019年1月16日上午,中商碳素研究院院长姜玉敬、总经理陈晓楠等领导在公司会见澳洲 GRAPHEX MINNG LIMTED总经理PHIL HOSKINS先生,业务顾问JUYAN FENG女士、GOERGE LI先生及比亚迪公司重要研究院院长宫清一行,三方就共同关心的领域进行了细致、深度的交流洽谈,对未来的共同合作达成了初步意向。姜玉敬院长对GRAPHEX、比亚迪公司代表团的到来表示热烈的欢迎,并简要介绍了中商碳素研究院业务板块及近期研究成果。他表示,中商碳素研究院作为中国碳素产业、铝产业、新材料产业和新能源产业的综合服务商,产业进出口业务近年来持续扩增,在互联网与产业的深度融合上具有较强的竞争优势。目前,中商碳素研究院处于快速发展阶段,各项业务均呈现出速度、质量、效益协调发展的良好势头,期望双方在未来的国际产业发展、人才交流、行业培训、科研合作、信息共享等方面开展全方位、多层次的工作,更好地满足中澳双方共同发展需求，就推动国际间新技术、新理念、新模式的融合与创新共同努力,实现双方行业技术进步和产业转型升级。澳洲GRAPHEX公司总经理PHIL HOSKINS先生就GRAPHEX MINING公司的发展状况做了简单的介绍,强调了双方合作的有事和发展趋势,并对双方未来的合作思路提出了设想。他表示,中商碳素研究院在传统产业与互联网结合方面、市场贸易方面优势明显,双方的合作具有很强的国际互补性与共赢性,有利于公分发挥区域资源优势和人才优势,同时也有助于发展科研队伍,促进国际人才交流,提升企业发展水平,实现共赢发展。</p>
+						<img src="images/xinwenxiangqing2.0@2x.png" alt="" width="100%" height="100%">
+						<p>会谈前,来访贵宾在中商碳素研究院领导的陪同下,参观考察了我司的上海办公大楼,对我司的业务领域、科技研发、企业文化等进行了详细了解。PHIL HOSKINS先生表示自己非常喜欢中国文化,此行还特意佩戴了印有汉字的领带,PHILHOSKINS先生对中国茶文化有着浓厚的兴趣,对中商碳素展示的中国传统茶道理解表示由衷感谢,同时邀请中商碳素领导到澳洲考察相关项目,早日促成双方实质性的合作。</p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 底部通用组件 -->
+		<div class="footer container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-2">
+						<img src="./images/footer_logo.png">
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+							<li>
+								Feed
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</body>
+
+</html>

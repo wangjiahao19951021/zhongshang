@@ -1,0 +1,446 @@
+/* 主营业务样式表 */
+body{
+	background-color: #FFFFFF;
+}
+/* banner */
+.wrap-banner {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: #ffffff;
+  background: url("../images/shoupingbeijing@2x.png") no-repeat center;
+  position: relative;
+}
+
+.main-banner {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+
+.main-banner>h1 {
+  padding-bottom: 0.5em;
+  font-size: 3em;
+}
+
+.main-banner>h3 {
+  padding-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.main-banner>p {
+  font-size: 1.5em;
+}
+
+/* 互联网平台 */
+.wrap-internet {
+  width: 100%;
+  height: 100%;
+  margin: 2em 0;
+}
+
+.main-internet {
+  width: 100%;
+  height: 100%;
+}
+
+/* 标题 */
+.title-business {
+  text-align: center;
+}
+
+.title-business>h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.wire-business {
+  width: 100%;
+  height: 3em;
+  margin-top: 1em;
+}
+
+.wire-business>img {
+  width: 1.2em;
+  height: 1.2em;
+  display: inline-block;
+}
+
+.cont-internet {
+  width: 100%;
+  height: 28em;
+  padding: 0 5em;
+}
+
+/* one */
+.contOne-internet {
+  width: 9em;
+  height: 27em;
+  margin-right: 6.3em;
+  background: url("../images/hulianwangpingtai1.0@2x.png") no-repeat center;
+  display: inline-block;
+  background-size: 100%;
+  position: relative;
+}
+
+.contOne-internet>.one_span {
+  width: 5em;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contOne-internet>.two_span {
+  width: 5em;
+  position: absolute;
+  bottom: 11%;
+  left: 38%;
+  font-size: 15px;
+}
+
+/* two */
+.contTwo-internet {
+  width: 9em;
+  height: 27em;
+  margin-right: 6.3em;
+  background: url("../images/hulianwangpingtai2.0@2x.png") no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.contTwo-internet>.one_span {
+  width: 5em;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contTwo-internet>.two_span {
+  width: 5em;
+  position: absolute;
+  bottom: 11%;
+  left: 42%;
+  font-size: 15px;
+}
+
+/* three */
+.contThree-internet {
+  width: 9em;
+  height: 27em;
+  margin-right: 6.3em;
+  background: url("../images/hulianwangpingtai3.0@2x.png") no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.contThree-internet>.one_span {
+  width: 5em;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contThree-internet>.two_span {
+  width: 5em;
+  position: absolute;
+  bottom: 11%;
+  left: 32%;
+  font-size: 15px;
+}
+
+/* four */
+.contFour-internet {
+  width: 9em;
+  height: 27em;
+  margin-right: 6.3em;
+  background: url("../images/hulianwangpingtai4.0@2x.png") no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.contFour-internet>.one_span {
+  width: 5em;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contFour-internet>.two_span {
+  width: 5em;
+  position: absolute;
+  bottom: 11%;
+  left: 32%;
+  font-size: 15px;
+}
+
+/* five */
+.contFive-internet {
+  width: 9em;
+  height: 27em;
+  background: url("../images/hulianwangpingtai5.0@2x.png") no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.contFive-internet>.one_span {
+  width: 5em;
+  position: absolute;
+  top: 28%;
+  left: 16%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contFive-internet>.two_span {
+  width: 5em;
+  position: absolute;
+  bottom: 11%;
+  left: 32%;
+  font-size: 15px;
+}
+
+.text-internet {
+  width: 100%;
+  height: 100%;
+  margin-top: 1em;
+  padding: 0 4em;
+}
+
+.text-internet>p {
+  padding: 0 2em 1em 2em;
+  line-height: 2.5em;
+}
+
+/* 科技版块 */
+.wrap-science {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3em;
+  background-color: #eeeeee;
+}
+
+.banner-science {
+  width: 100%;
+  height: 30em;
+  margin-bottom: 3em;
+}
+
+.cont-science {
+  margin: 0 5em 2em 5em;
+}
+
+.cont-science>p {
+  line-height: 2.5em;
+}
+
+/* 文化版块 */
+.wrap-culture {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+.main-culture {
+  width: 100%;
+  height: 36em;
+  margin: 0 1em;
+}
+
+.Lcont-culture {
+  width: 50%;
+  height: 34em;
+  float: left;
+  padding: 3em;
+}
+
+.text_Lcont {
+  width: 100%;
+  height: 65%;
+}
+
+.text_Lcont>h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.text_Lcont>p {
+  line-height: 2.2em;
+}
+
+.classify_Lcont {
+  width: 100%;
+  height: 30%;
+}
+
+.classify_Lcont>ul {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.classify_Lcont>ul>li {
+  width: 40%;
+  height: 2.5em;
+  float: left;
+  border-left: 3px solid #7535d8;
+  margin: 0 1em 3em 0;
+  padding-left: 1em;
+  line-height: 2.5em;
+}
+
+.Rcont-culture {
+  width: 50%;
+  height: 34em;
+  float: left;
+}
+
+.Rimg-culture {
+  width: 100%;
+  height: 100%;
+}
+
+.Rimgul {
+  width: 100%;
+  height: 100%;
+  margin-left: 0.8em;
+}
+
+.Rimgli {
+  width: 47%;
+  height: 17em;
+  float: left;
+  margin: 0.5em;
+  overflow: hidden;
+}
+
+.Rimgli> img {
+  transition: all 2s;
+  transform: scale(1);
+}
+.Rimgli> img:hover{
+
+  transition: all 2s;
+  transform: scale(1.2);
+}
+
+/* 金融板块 */
+.wrap-financial {
+  width: 100%;
+  height: auto;
+  margin: 1em auto;
+}
+
+.main-financial {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-financial {
+  width: 60%;
+  height: 22em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-financial>img {
+  width: 100%;
+  height: 22em;
+  margin-bottom: 2em;
+}
+
+.cont-financial {
+  width: 100%;
+  height: 100%;
+  margin: 2em auto;
+}
+
+.text-financial {
+  height: 100%;
+  padding: 2em 4em;
+}
+
+.text-financial>h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+
+.text-financial>p {
+  line-height: 2em;
+}
+
+/* 产业板块 */
+.wrap-industry {
+  width: 100%;
+  height: auto;
+}
+
+.cont-industry {
+  height: 100%;
+  margin: 2em auto;
+  padding: 0 4em;
+}
+
+.img-industry {
+  height: 12em;
+  overflow: hidden;
+}
+
+.img-industry>img {
+  transition: all 3s;
+  transform: scale(1);
+}
+
+.img-industry>img:hover {
+  transition: all 2s;
+  transform: scale(1.2);
+}
+
+.title-industry {
+  width: 100%;
+  height: 100%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.title-industry>h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title-industry>span {
+  width: 3em;
+  height: 1em;
+  display: inline-block;
+  border-bottom: 3px solid #664ed6;
+}
+
+.text-industry {
+  width: 100%;
+  height: 100%;
+  margin-left: 2.8em;
+}
+
+.text-industry>p {
+  line-height: 1.8em;
+}
+.wrap-culture{
+  margin-top: 3em;
+}
+.wrap-industry{
+  margin-top: 2em;
+}

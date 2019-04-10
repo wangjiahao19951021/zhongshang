@@ -1,0 +1,298 @@
+/* 专家团队 */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    margin: 0;
+    padding: 0;
+}
+.team_dean{
+    margin-top: 3em;
+    border-radius: 15px;
+}
+.team_dean .row div{
+    min-height: 24em;
+}
+.team_dean_1{
+    width: 100%;
+    background: #684ed6;
+    color: white;
+    padding: 5em 0 0 3em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.team_dean_1 h3{
+    margin-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+.team_dean_1 p{
+    width: 50%;
+}
+.team_dean_1 p:last-of-type{
+    border-radius: 10px;
+    border: 1px solid #fffefc;
+    width: 50%;
+    text-align: center;
+    margin: 2em 0 0 3em;
+}
+.team_dean_1 img{
+    position: absolute;
+    right: 13%;
+    top: 0;
+}
+.team_dean .col-md-3{
+    border-right: 1px solid #e6e6e6;
+}
+.team_dean_2{
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+.team_dean_2 img{
+    text-align: center;
+    width: 20%;
+    height: 6em;
+    margin: 2em auto 0;
+}
+.team_dean_2 h4{
+    text-align: left;
+    width: 70%;
+    margin: 1em auto;
+    color: #252525;
+    line-height: 1.2em;
+}
+.team_dean_2 p{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    color: #8b8b8b;
+    line-height: 1.5em;
+}
+.team_dean_4{
+    width: 100%;
+    height: 100%;
+    height: 23em;
+	overflow: hidden;
+}
+.team_dean_4 img{
+    width: 100%;
+    height: 100%;
+}
+/* 名誉 */
+.tram_reputation{
+    margin-top: 3em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tram_reputation_left{
+    width: 100%; 
+    min-height: 24em;    
+    background: #684ed6;
+    color: white;
+}
+.tram_reputation_left .title1{
+    padding: 1.5em 0 0 1em;
+	font-size: 1.2em;
+}
+.tram_reputation_left .title2{
+    text-align: center;
+    margin: 0.5em 0 0 0;
+}
+/*.tram_reputation_left h3{
+    width: 70%;
+    margin: 1em auto 1em;
+	text-align: center;
+}*/
+.tram_reputation_left .names{
+    width: 35%;
+    margin: 0 auto;
+}
+.tram_reputation_left .names span{
+    margin-right: 1em;
+}
+.tram_reputation_left .btns{
+    margin: 1em auto 0;
+    width: 50%;
+    border: 1px solid #816bd8;
+    border-radius: 10px;
+    text-align: center;
+}
+.tram_reputation_right{
+    width: 98%;
+    background: white;
+    min-height: 24em;
+    margin-left: 2%;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0 0 0 2.5em;
+}
+.tram_reputation_right h3{
+    padding: 3em 0 0 0;
+    width: 55%;
+    color: #3c3d41;
+}
+.tram_reputation_right h3 span{
+    color: #8a8a8a;
+}
+.tram_reputation_right .content{
+    padding: 1.5em 0 0 0;
+    color: #838c8b;
+    width: 90%;
+    line-height: 1.5em;
+}
+.tram_reputation_c{
+    width: 100%;
+    min-height: 24em;
+    background: white;
+	overflow: hidden;
+}
+.tram_reputation_right .btns{
+    width: 30%;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.3em 0;
+    margin-top: 2em;
+}
+.tram_reputation_right .btns img{
+    margin-right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.tram_reputation_right .btns span{
+    color: #3d3d3f;
+}
+.tram_reputation_c img{
+    width: 100%;
+    height: 24em;
+}
+/* 专家委员会成员 */
+.team_expert{
+    margin-top: 3em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.team_expert_row1{
+    background: white;
+    padding: 1em 0 1em 1em;
+    color: #393a3c;
+}
+.team_expert_row2{
+    background: #f3f2f0;
+}
+.team_expert_row2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.team_expert_row2 li{
+    background: #f3f2f0;
+    border-radius: 10px;
+	overflow: hidden;
+}
+.team_expert_row2 li img{
+    margin-top: 0.3em;
+    width: 100%;
+    height: 15em;
+}
+.team_expert_row2 li div{
+    background: white;
+    padding: 1em 0.5em 0; 
+    color: #8e8e8e;   
+    min-height: 9em;
+}
+.team_expert_row2 .names, .team_expert_row2 .names_bottom{
+    font-weight: bold;
+    color: #3b3b3b;
+}
+.team_expert_row2 .contents{
+    margin-top: 0.5em;
+}
+/* 专家委员 */
+.team_member{
+    border-radius: 10px;
+    margin-top: 3em;
+    overflow: hidden;    
+}
+.team_member_row1{
+    background: white;
+    padding: 1em 0 1em 1em;
+    color: #393a3c;
+}
+.team_members{
+    margin-top: 0.5em;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.team_members li{
+    width: 20%;
+}
+.team_members ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.team_members_name{
+    text-align: center;
+    font-weight: bold;
+    color: #2b2b2b;  
+    height: 5em;
+    line-height: 5em;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+.team_members_name h4{
+    line-height: 5em;
+}
+.team_members_introduction{
+    color: #888888;
+    padding: 2em 1.5em 0;
+    height: 10em;
+    border-right: 1px solid #e6e6e6;
+}
+/* 小三角 */
+.aa{
+    width: 0;
+    height: 0;
+    border-right:1em solid transparent;
+	border-left:1em solid #684ed6;
+	border-bottom:1em solid transparent;
+    border-top:1em solid transparent;
+    position: absolute;
+    right: -2em;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    min-height: 0 !important;
+}
+
+.img_team{
+    transition: all 3s;
+    transform: scale(1);
+}
+.img_team:hover{
+    transition: all 3s;
+    transform: scale(1.1);
+}
+
+/* 修改 */
+.tram_reputation_left{
+    border-radius: 10px;
+    }
+    .team_dean_1 p:last-of-type{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 15px;
+    }
+    .tram_reputation_left .btns{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 15px; 
+    }
+    .tram_reputation_left .names{
+        width: 41%;
+        margin: 1em auto 0;
+    }
+    .tram_reputation_left .btns{
+        border: 1px solid #fffefc;
+        margin-top: 3em;
+    }

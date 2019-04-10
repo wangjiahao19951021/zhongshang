@@ -1,0 +1,331 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+/*头部*/
+
+.index-header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 999;
+    height: 20vh;
+    top: 0;
+    color: white;
+}
+
+.index-banner {
+    width: 18%;
+    height: 13vh;
+    margin-left: 1em;
+    background: url("../images/logo-01-01-01.png") no-repeat center white;
+    -webkit-background-size: 100% 80%;
+    background-size: 100% 80%;
+}
+
+.index-nav {
+    width: 82%;
+    padding: 2em 0;
+}
+
+.index-nav ul {
+    margin-left: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.index-nav li {
+    margin-left: 4%;
+    cursor: pointer;
+    padding-bottom: 0.5em;
+}
+
+.index-nav .active {
+    border-bottom: 0.2em solid white
+}
+
+.index-nav li:hover {
+    border-bottom: 0.2em solid white;
+}
+
+.index-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    z-index: 999;
+}
+
+.index-text>h1 {
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.index-text>h3 {
+    padding-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.index-text>p{
+    font-size: 0.7em;
+}
+
+.index_content {
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+.index_icon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    background: url("../images/bofang@2x.png") no-repeat center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.swiper-container {
+    height: 100vh;
+}
+
+.swiper-slide {
+    cursor: pointer;
+}
+
+/* 底部通用样式 */
+
+.footer {
+    width: 100%;
+    background: #444a5a;
+    margin-top: 3em;
+    text-align: center;
+    color: #f4f5fa;
+    padding: 3em 0;
+}
+
+.footer img {
+    margin-top: 3em;
+}
+
+.footer li {
+    padding: 0.3em 0;
+}
+
+/* 中英文切换 */
+
+.change_langa {
+    cursor: pointer;
+    margin-left: 1em;
+    position: relative;
+    background-color: #120d27;
+    border-radius: 10px;
+    background-color:rgba(0 , 0 , 0 , .3);
+    height: 1.6em;
+}
+
+.change_langa span {
+    padding: 0 0.2em;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+.change_langa .active {
+    background: white;
+    color: black;
+    height: 1.6em;
+}
+
+/* 视频css */
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border: none;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.index-more {
+    display: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient( left, #a82229, #6e2ec3);
+    padding: 0.2em 1em;
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+.video_box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 5em;
+    width: 100%;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    visibility: hidden;
+    align-content: center;
+}
+
+.video_left {
+    width: 20%;
+    height: 3.5em;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.video_left img {
+    width: 10%;
+}
+
+.video_left .video_left_zan {
+    width: 15%;
+}
+
+.video_center {
+    width: 50%;
+    height: 3.5em;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.video_right {
+    width: 20%;
+    height: 3.5em;
+}
+
+/* 滚动条 */
+
+.video_c_box {
+    width: 60%;
+    height: 0.5em;
+    border-radius: 20px;
+    background: #9faaae;
+    margin: 1.5em 0 0;
+}
+
+.video_centers {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.video_centers>div {
+    color: #fcfdff;
+}
+
+.video_cbox_container {
+    height: 100%;
+    background: #3f61c3;
+    border-radius: 20px;
+    position: relative;
+}
+
+.times {
+    min-width: 8em;
+    text-align: center;
+}
+
+.video_circles {
+    position: absolute;
+    right: 0;
+    top: -50%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #de30ab;
+    box-shadow: 1px 1px 15px#de30ab;
+}
+
+.video_center img {
+    width: 2em;
+    height: 2em;
+}
+
+.video_right_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.2em;
+}
+
+.video_right_box img {
+    width: 5em;
+    height: 3em;
+}
+
+.video_right_box div {
+    color: #feffff;
+}
+
+.video_left {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.video_left i {
+    width: 3em;
+    height: 3em;
+    color: #eeeaea;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.video_centers i {
+    font-size: 2em;
+    margin-top: 0.3em;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+/*  */
+
+.single-line {
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+}
+
+.index-header{
+    z-index: 1999;
+}

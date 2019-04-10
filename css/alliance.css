@@ -1,0 +1,219 @@
+body{
+    background: white;
+}
+/* 内容 */
+.alian{
+    text-align: center;
+}
+.alian_icon1{
+    width: 38%;
+    margin: 5em auto 0;
+
+}
+.alian_icon1 img{
+    width: 100%;
+}
+.alian_icon1 h2{
+    margin: 1em 0;
+}
+.alian p{
+    color: #8a8a8a;
+    line-height: 2em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+}
+/* 联盟构成 */
+.all_composition{
+    text-align: center;
+    margin-top: 3em;
+}
+.all_composition img{
+    width: 100%;
+    margin-top: 2em;
+}
+.all_composition_box{
+    position: relative;
+}
+.all_composition_pro{
+    width: 100%;
+    height: 5em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.all_composition_pro img{
+    width: 8em;
+    height: 7em;
+    margin-top: 0;
+    position: relative;
+    z-index: 9;
+}
+.all_composition_pro>div{
+    width: 16.5%;
+    min-height: 18em;
+}
+.all_composition_pd{
+    position: relative;
+}
+.all_composition_pd div{
+    position: absolute;
+    top: 19%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #f2f2f2;
+    padding: 3.5em 0.5em 0;    
+}
+.all_composition_pd .all_pro_bj{
+    background: white;
+}
+.all_pro_bj1{
+    text-align: left;
+}
+.all_pro_bj2{
+    text-align: left;
+    color: #8b8b8b;
+}
+.all_composition_pd div p:first-of-type{
+    padding: 0.5em 0;
+}
+.all_composition_pd div p:nth-of-type(2){
+    padding: 0.5em 0 0 0;
+}
+/* 联盟单位 */
+.all_unit{
+    margin-top: 20em;
+    text-align: center;
+}
+.all_unit h2{
+    padding-bottom: 0.5em;
+}
+.all_rows{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+}
+.all_rows div{
+    width: 25%;
+}
+.all_rows div img{
+    width: 100%;
+    height: 8em;
+}
+/* 联盟服务 */
+.all_service{
+    margin-top: 4em;
+}
+.all_service h2{
+    text-align: center;
+}
+.rows{
+    position: relative;
+    width: 100%;
+}
+.all_service_ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3em;    
+    flex-wrap: wrap;
+    position: absolute;
+    left: 5%;
+    width: 100%;
+}
+.all_service_ul li{
+    text-align: center;
+    line-height: 9em;
+    color: white;
+    width: 13em;
+    height: 9em;
+    position: relative;
+}
+.all_service_ul li h4{
+    line-height: 7em;
+}
+.all_service_ul li div{
+    width: 13em;
+    height: 9em;
+}
+.all_service_ul li:nth-of-type(1) div{
+    background: url("../images/lianmengfuwu1.0@2x.png") no-repeat center;
+    background-size: 100%;
+}
+.all_service_ul li:nth-of-type(2) div{
+    background: url("../images/lianmengfuwu2.0@2x.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: -20%;
+}
+.all_service_ul li:nth-of-type(3) div{
+    background: url("../images/lianmengfuwu3.0@2x.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: -40%;
+}
+.all_service_ul li:nth-of-type(4) div{
+    background: url("../images/lianmengfuwu4.0.0@2x.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: -60%;
+}
+.all_service_ul li:nth-of-type(5) div{
+    background: url("../images/lianmengfuwu5.0@2x.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: -80%;
+}
+.all_service_ul li:nth-of-type(6) div{
+    background: url("../images/lianmengfuwu6.0@2x.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: -100%;
+}
+/* 加入我们 */
+.all_join{
+    margin-top: 15em;
+}
+.all_join_imgs{
+    width: 100%;
+	overflow: hidden;
+}
+.all_join_imgs img{
+    width: 100%;
+}
+.all_join_content{
+    width: 100%;
+    padding: 2em 3em 0;
+}
+.all_join_content p:first-of-type{
+    margin-top: 4em;
+}
+.all_join_content p{
+    margin-top: 0.5em;
+    color: #8a8a8a;
+}
+
+.img-join{
+	transition: all 3s;
+	transform: scale(1);
+}
+
+.img-join:hover{
+	transition: all 3s;
+	transform: scale(1.1);
+}
+
+/* 修改 */
+.all_composition{
+    margin-top: 4em;
+    }
+    .alian{
+    margin-top: 1em;
+    }
+    .all_unit{
+    margin-top: 21em;
+    }

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./lib/Swiper-3.4.2/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/jquery-1.11.3/jquery.min.js"></script>
+    <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./lib/Swiper-3.4.2/dist/js/swiper.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>    
+    <script src="./js/index.js"></script>
+    <script src="./js/index_videos.js"></script>
+    <script src="./lib/test-languagejs/js/language.js"></script>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="index-header">
+            <h1 class="index-banner"></h1>
+            <nav class="index-nav">
+                <ul>
+                    <li  class="active">首页</li>
+                    <li>关于中商</li>
+                    <li>资讯中心</li>
+                    <li>主营业务</li>
+                    <li>专家团队</li>
+                    <li>中商联盟</li>
+                    <!-- <li><span>中文</span><span>英文</span></li> -->
+                    <p class="change_langa"><span class="active" data="1"><small>中文</small></span><span data="2"><small>英文</small></span></p>
+                </ul>
+            </nav>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./images/beijing@2x.jpg)"></div>
+            <!--<div class="swiper-slide" style="background-image:url(./images/beijing@2x.jpg)"></div>-->
+            <!--<div class="swiper-slide" style="background-image:url(./images/beijing@2x.jpg)"></div>-->
+            <!--<div class="swiper-slide" style="background-image:url(./images/beijing@2x.jpg)"></div>-->
+            <!--<div class="swiper-slide" style="background-image:url(./images/u0.jpg)"></div>-->
+            <!--<div class="swiper-slide" style="background-image:url(./images/u8.jpg)"></div>-->
+            <!--<div class="swiper-slide" style="background-image:url(./images/u14.jpg)"></div>-->
+        </div>
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <div class="index-text">
+            <h1>铝及铝用碳素产业升级探索者</h1>
+            <h2 class="index_content">高质量发展的推动者</h2>
+            <i class="index_icon"></i>
+            <i class="index-more">了解更多</i>
+        </div>
+        <video width="100%" height="400" controls="" controlslist="nodownload nofullscreen" id="video">
+            <!-- <source src="./video/testvideo.mp4" type="video/mp4"> -->
+            <source src="./video/madagascar3.mp4" type="video/mp4">
+            <source src="./video/madagascar3.mp4" type="video/ogg">
+            您的浏览器不支持此种视频格式。
+        </video>
+        <div class="video_box">
+            <div class="video_left">
+                <img src="./images/bofangtiao1.0@2x.png" class="video_left_jian">
+                <!-- glyphicon glyphicon-pause -->
+                <i class="glyphicon glyphicon-pause video_left_zan"></i>
+                <img src="./images/bofangtiao3.0@2x.png" class="video_left_jia">
+            </div>
+            <div class="video_center">
+                <div class="video_centers">
+                    <div class="time_start times">00:00:00</div>
+                    <div class="video_c_box">
+                        <div class="video_cbox_container">
+                            <div class="video_circles"></div>
+                        </div>
+                    </div>
+                    <div class="time_end times">00:00:00</div>
+                    <div>
+                        <img src="./images/bofangtiao4.0@2x.png" class="jinyin1">
+                        <img src="./images/jinyin.png" class="jinyin2" style="display: none">
+                        <!-- <i class="glyphicon glyphicon-volume-off"></i> -->
+                    </div>
+                </div>
+            </div>
+            <div class="video_right">
+                <div class="video_right_box">
+                    <img src="./images/chanyebankuai3.0@2x.png">
+                    <div>
+                        <p><small>致力于服务中国碳素产业</small></p>
+                        <p>中商碳素研究院宣传片</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

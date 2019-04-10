@@ -1,0 +1,608 @@
+/* 资讯中心样式 */
+body{
+	background-color: #FFFFFF;
+}
+/* banner */
+.wrap-banner {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: #ffffff;
+  background: url("../images/shoupingbeijing.png") no-repeat center;
+  position: relative;
+}
+
+.main-banner {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+
+.main-banner>h1 {
+  padding-bottom: 0.5em;
+  font-size: 3em;
+}
+
+.main-banner>h3 {
+  padding-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.main-banner>p {
+  font-size: 1.5em;
+}
+
+/*tab导航*/
+.wrap-tabNews {
+  width: 100%;
+  height: 6em;
+  background: url("../images/fenleidaohangbiejing@2x.jpg") no-repeat center;
+  color: #ffffff;
+}
+
+.main-tabNews {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.2em;
+  margin-top: 2rem;
+  float: left;
+}
+
+.main-tabNews>li {
+  float: left;
+  text-align: center;
+  width: 16%;
+  line-height: 1.5em;
+  cursor: pointer;
+  border-right: 1px solid #ffffff;
+}
+
+
+.main-tabNews>li:nth-child(6) {
+  border-right: none;
+}
+
+.main-borderP{
+  border-right: 1px solid #ffffff;
+}
+
+.main-tabSpan{
+  display: none;
+}
+
+.main-tabNews>li:hover .main-tabSpan{
+  display: block;
+}
+
+
+/* 三角 */
+.wrap-active{
+  width: 100%;
+  height: 2rem;
+  position: relative;
+}
+
+.active-tab{
+  float: left;
+  text-align: center;
+  width: 16%;
+  line-height: 1.5em;
+}
+
+.active-tab > i{
+  font-size: 20px;
+}
+
+/*企业动态*/
+.wrap-movement {
+  width: 100%;
+  height: auto;
+}
+
+.main-movement {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 0.5em;
+	cursor: pointer;
+}
+
+.img-movement {
+  position: relative;
+  padding: 1em;
+  width: 27.8em;
+  height: 19em;
+}
+
+.img-movement>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 0 0;
+}
+
+.cont-movement {
+  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-right: 8em;
+  height: 12em;
+}
+
+.cont-movement> .h3-title {
+  padding-bottom: 1em;
+  font-size: 20px;
+  height: 2em;
+}
+
+.cont-movement> .p-cont{
+  height: 12em;
+  color: #2e2e2e;
+  font-size: 14px;
+  padding-bottom: 1em;
+}
+
+.main-movement:hover .h3-title{
+  color: #fc3f52 !important;
+}
+
+.main-movement:hover .p-cont{
+  color: #fc3f52 !important;
+}
+
+
+.cont-movement>span {
+  color: #898989;
+  font-size: 11px;
+}
+
+/* 置顶 */
+.isTop{
+  width: 15%;
+  height: 2em;
+  background-color: #fe0000;
+  border-radius: 0 10px 0 10px;
+  position: absolute;
+  color: #ffffff;
+  line-height: 2em;
+  right: 14px;
+  top: 14px;
+  text-align: center;
+}
+
+/* 信息资讯 */
+.wrap-message {
+  width: 100%;
+  height: auto;
+  margin: 2.5em auto;
+}
+
+.title-message {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.title-message>div>h1 {
+  margin-bottom: 0.5em;
+	font-size: 25px;
+}
+
+/* 动态模块 */
+.main-message {
+  width: 100%;
+  height: 43em;
+  margin-top: 3em;
+}
+
+/* 左侧图片 */
+.Limg-message {
+  width: 45%;
+  height: 90vh;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.h3-message {
+  position: absolute;
+  top: 40%;
+  left: 24%;
+  color: #ffffff;
+}
+
+.h3-message>h3 {
+  margin-bottom: 1em;
+  font-size: 30px;
+}
+
+.Limg-message>img {
+  transition: all 3s;
+  transform: scale(1);
+}
+
+.Limg-message>img:hover {
+  transition: all 3s;
+  transform: scale(1.1);
+}
+
+/* 右侧样式 */
+.Rimg-message {
+  width: 55%;
+  height: 39em;
+  float: right;
+  color: #ffffff;
+  position: relative;
+}
+
+.Rmain-message {
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+}
+
+.Rmain-message>h4 {
+  padding: 0.5em 0.8em;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.Rmain-message>p {
+  padding: 0 1em 0.5em 1em;
+}
+
+/* 右侧条形模块 */
+.one-message {
+  width: 100%;
+  height: auto;
+  border-radius: 60px 0px 0px 60px;
+  margin-bottom: 1em;
+}
+
+.two-message {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 27%;
+  right: 0;
+  border-radius: 60px 0px 0px 60px;
+  margin-bottom: 1em;
+}
+
+.three-message {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 55%;
+  right: 0;
+  border-radius: 60px 0px 0px 60px;
+  margin-bottom: 1em;
+}
+
+.four-message {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 83%;
+  right: 0;
+  border-radius: 60px 0px 0px 60px;
+}
+
+/* 右侧背景色 */
+.one-color {
+  background-color: #9c33ff;
+}
+
+.two-color {
+  background-color: #c119c4;
+}
+
+.three-color {
+  background-color: #227fba;
+}
+
+.four-color {
+  background-color: #4fa6dc;
+}
+
+/* 市场资讯 */
+.wrap-market {
+  width: 100%;
+  height: auto;
+  margin: 1em auto;
+}
+
+/* 左边 */
+.Lmain-market {
+  width: 35%;
+  height: 35em;
+  float: left;
+  position: relative;
+}
+
+.Lone-market {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.Lone-market>h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.Ltwo-market {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+
+.Ltwo-market>h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* 中间 */
+.Mmain-market {
+  width: 30%;
+  height: 35em;
+  float: left;
+  position: relative;
+}
+
+.Mimg1-market {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  top: 20%;
+  left: 33%;
+}
+
+.Mimg2-market {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  right: 5%;
+  top: 38%;
+}
+
+.Mimg3-market {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  bottom: 20%;
+  right: 33%;
+}
+
+.Mimg4-market {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  left: 5%;
+  top: 38%;
+}
+
+/* 右边 */
+.Rmain-market {
+  width: 35%;
+  height: 35em;
+  float: left;
+  position: relative;
+}
+
+.Rone-market {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}
+
+.Rone-market>h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.Rtwo-market {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.Rtwo-market>h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* 技术服务 */
+.wrap-technical {
+  width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
+.main-technical {
+	height: 32em;
+  padding: 2em;
+}
+
+.img-technical {
+  height: 14em;
+  overflow: hidden;
+}
+
+.img-technical>img {
+  transition: all 3s;
+  transform: scale(1);
+}
+
+.img-technical>img:hover {
+  transition: all 2s;
+  transform: scale(1.2);
+}
+
+.text-technical {
+  height: 16em;
+  padding: 2.5em 2em;
+  background-color: #f2f2f2;
+}
+
+.text-technical>h4 {
+  font-size: 16px;
+  font-weight: 550;
+  margin-bottom: 0.7em;
+}
+
+.text-technical>p {
+  margin-bottom: 0.7em;
+  color: #a4a4a4;
+}
+
+.banner-technical {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+/* 工程项目 */
+.wrap-engineering {
+  width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
+.main-engineering {
+  width: 100%;
+	height: 90vh;
+  padding: 0 2em;
+  margin-bottom: 3em;
+}
+
+.bgdimg-engineering {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background: url(../images/xiangmubiejing@2x.png) no-repeat center;
+}
+
+.cont-engineering {
+  width: 100%;
+  height: 40vh;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+}
+
+.text-engineering {
+  width: 40%;
+  height: 100%;
+  float: left;
+  background-color: #284797;
+  opacity: 0.8;
+}
+
+.text-engineering>div {
+  margin: 1em;
+}
+
+.text-engineering>div>h3 {
+  color: #ffffff;
+  margin-bottom: 0.3em;
+  font-size: 20px;
+}
+
+.text-engineering>div>p {
+  margin-top: 0.5em;
+  color: #ffffff;
+  line-height: 2em;
+}
+
+.img-engineering {
+  width: 60%;
+  height: 100%;
+  float: right;
+	overflow: hidden;
+}
+
+.img-engineering>img {
+
+  transition: all 3s;
+  transform: scale(1);
+}
+
+.img-engineering>img:hover {
+  transition: all 2s;
+  transform: scale(1.2);
+}
+
+/*  */
+.single-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.vis_hide{
+  visibility:hidden;
+}
+
+.wrap-tabNews{
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+.container-fluid{
+  margin-top: 5em;
+}
+
+
+/* 新闻详情 */
+.wrap-news{
+  width: 100%;
+  height: auto;
+}
+
+.main-news{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-news{
+  margin-top: 3em;
+  text-align: center;
+}
+
+.title-news > h2{
+  font-size: 20px;
+	margin-bottom: 1em;
+}
+
+.title-news > p{
+  color: #9a9a9a;
+  padding-bottom: 2em;
+}
+
+.cont-news{
+  margin-bottom: 2em;
+}
+
+.cont-news > img{
+  margin: 1.5em auto;
+}
+
+.cont-news > p{
+	color: #4a4a4a;
+}
+
+
+/* 分页 */
+.M-box11{
+  display: flex;
+  justify-content: center;
+}
+.m-style .active{
+  background: #444a5a !important;
+  border: none !important;
+}
+.m-style a:hover{
+  background: #444a5a !important;
+  border: none !important;
+}

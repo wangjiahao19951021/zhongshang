@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lib/jquery-1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <!-- <form id="upform" enctype='multipart/form-data' style="display:none;">
+        <div class="form-group">
+            <label for="upteainput">上传文件</label>
+            <input id="upteainput" name="upfile" type="file" class="form-control-file">
+        </div>
+    </form>
+    <button id="uptea" type="button" class="btn btn-primary">上传</button> -->
+
+    <form enctype='multipart/form-data'>
+        <input id="upteainput" name="upfile" type="file">
+        <input type="submit" value="提交">  
+    </form>
+    
+    <script>
+
+        $("form").submit(function (e) {
+            e.preventDefault()
+            console.log($("#upteainput").val())
+            let uploadFile = $("#upteainput")[0].files[0];
+            console.log(uploadFile);
+            let pic = 1
+            var formData = new FormData();
+            formData.append("uploadFile", uploadFile);
+            console.log(formData)
+            console.log(formData.get("uploadFile"))
+            $.ajax({
+                    url: "http://test91.ykmimi.com/upload/img/"+ pic + "",
+                    type: "POST",
+                    data: {
+                        formData
+                    },
+                    xhrFields:{
+                        withCredentials:true
+                    },
+                    processData: false,
+                    contentType: false,
+                    mimeType:"multipart/form-data",
+                    error: function () {
+                        alert('Error loading XML document');
+                    },
+                    success: function (data) {//如果调用php成功
+                        console.log(data)
+                    }
+                });
+
+        })
+
+        $("#uptea").click(function () {
+            $("#upteainput").click();
+        });
+
+//下面是ajax上传文件的代码，此处就不做过多讲解。 
+$("#upteainput").change(function () {//如果上传文件的input内容发生了变化 = 
+            let pic = 1
+            $val = $("#upteainput").val();
+            var uploadFile = $("#upteainput")[0].files[0];
+            // console.log(uploadFile);
+            var formData = new FormData();
+            formData.append("uploadFile", uploadFile);
+            // if ($val != '') {//要上传的文件名不为空
+ 
+                // $.ajax({
+                //     url: "http://test91.ykmimi.com/upload/img/"+ pic + "",
+                //     type: "POST",
+                //     data: {
+                //         formData
+                //     },
+                //     processData: false,
+                //     contentType: fal4se,
+                //     error: function () {
+                //         alert('Error loading XML document');
+                //     },
+                //     success: function (data) {//如果调用php成功
+                //         console.log(data)
+                //     }
+                // });
+            // }
+        });
+    </script>
+</body>
+</html>
