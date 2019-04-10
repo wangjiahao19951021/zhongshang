@@ -329,3 +329,7 @@ video {
 .index-header{
     z-index: 1999;
 }
+
+.index-more{
+    cursor: pointer;
+}

@@ -17,6 +17,7 @@ $(function () {
                 timer = setTimeout(function(){
                     $(".index-header").css("visibility", "hidden")
                     $(".video_box").css("visibility", "hidden")
+                    
                     $("body").css("cursor", "none")
                     isMove = false;
                     console.log(isMove); // 静止后
